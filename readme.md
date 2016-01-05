@@ -7,8 +7,10 @@ It is a Jersey implementation
 Getting Started 
 
 git clone https://github.com/mehmetyaman/tsearch.rest.git
-\ncd tsearch.rest
-\nmvn clean install -U 
+
+cd tsearch.rest
+
+mvn clean install -U 
 
 to run on tomcat server
 
