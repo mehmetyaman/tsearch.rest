@@ -1,4 +1,4 @@
-TSEARCH.REST APPLICATION 
+Tsearch Rest 
 
 Rest service layer, stores rest services for tsearch application and welcomes ui section. 
 
