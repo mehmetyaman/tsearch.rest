@@ -23,6 +23,12 @@ import com.edia.tsearch.rest.service.exceptions.ERROR_CODES;
 
 @Path("/texture")
 @Produces(MediaType.APPLICATION_JSON)
+/**
+ * main service implementation for texture operations 
+ * 
+ * @author mehmetyaman
+ *
+ */
 public class TextureService {
 
 	@GET
@@ -134,9 +140,6 @@ public class TextureService {
 			@QueryParam(value = "content") String content,@QueryParam(value = "id") String id)
 			throws ServiceException {
 
-		System.out.println(title);
-		System.out.println(content);
-		
 		String result = "";
 
 		if (StringUtils.isEmpty(title) || StringUtils.isEmpty(content)) {
